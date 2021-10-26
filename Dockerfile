@@ -2,7 +2,7 @@
 
 FROM quay.io/ibmgaragecloud/node:lts-stretch
 
-WORKDIR /sample-app
+WORKDIR /usr/src/app
 
 EXPOSE 3000
 
