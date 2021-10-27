@@ -6,11 +6,11 @@ spec:
   serviceAccountName: build-bot
   params:
     - name: app-name
-      value: express_sample_app
+      value: express-sample-app
     - name: source-repo
       value: "https://github.com/cloud-native-garage-method-cohort/dennis-app.git"
     - name: image-repo
-      value: quay.io/dennis_steenbergen
+      value: quay.io/dennis_steenbergen/express_sample_app
   pipelineRef:
     name: express
   workspaces: 
