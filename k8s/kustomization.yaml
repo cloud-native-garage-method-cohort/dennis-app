@@ -6,7 +6,7 @@ resources:
 - route.yaml
 images:
 - name: quay.io/upslopeio/express-sample-app
-  newName: quay.io/dennis_steenbergen/express-sample-app
+  newName: quay.io/dennis_steenbergen/express_sample_app
   newTag: bdc9ad410080aec4a5b8efe656511340a0fa4605
 commonLabels:
   app.kubernetes.io/instance: express-sample-app

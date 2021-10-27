@@ -9,4 +9,4 @@ spec:
     name: express-sample-app
     kind: Service
     weight: 100
-  wildcardPolicy: None
+  wildcardPolicy: N
