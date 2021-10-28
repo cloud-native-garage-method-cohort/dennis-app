@@ -9,7 +9,6 @@ spec:
         name: webhook-receiver
       bindings:
         - ref: webhook-receiver
-
 ---
 apiVersion: triggers.tekton.dev/v1alpha1
 kind: TriggerTemplate
